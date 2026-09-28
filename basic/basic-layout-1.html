@@ -8,6 +8,22 @@
     <style>
       body {
         display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        gap: 1rem;
+      }
+
+      footer {
+        grid-column: span 2;
+      }
+
+      nav {
+        grid-column: span 0.5;
+      }
+
+      header {
+        grid-column: span 2;
+        grid-row: span 1;
       }
       /* Doe hier jouw ding! */
     </style>
